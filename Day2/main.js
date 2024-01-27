@@ -61,10 +61,10 @@ let bew = ran * 256;
 console.log(bew);
 
 let string = 'JavaScript';
-let firstIndex = string[0];
-let secondIndex = string[1];
-let Index = string[4]
-console.log(firstIndex, secondIndex, Index);
+let randIndex = Math.floor(Math.random() * string.length);
+console.log(randIndex);
+let randchar = string.charAt(randIndex);
+console.log(randchar);
 
 console.log('1\t1\t1\t1\t1\n2\t1\t2\t4\t8\n3\t1\t3\t9\t27\n4\t1\t4\t16\t64\n5\t1\t5\t25\t125');
 console.log(sentence.substr(30, 24));
