@@ -1,4 +1,4 @@
-import { countries } from "./countries.js";
+
 import webTechs from "./webTechs.js";
 
 // Level 1
@@ -85,12 +85,16 @@ shoppingCart[3] = 'Green Tea';
 console.log(shoppingCart);
 
 // Accessing countries.js in median.js
+
+import { countries } from "./countries.js";
 let cot = countries.includes('Ethiopia');
 console.log(cot);
 
 // Accessing webTechs.js in median.js
 let sas = webTechs.includes('Sass')
 console.log(sas);
+webTechs.unshift('Sass');
+console.log(webTechs);
 
 const frontEnd = ['HTML', 'CSS', 'JS', 'React', 'Redux'];
 const backEnd = ['Node','Express', 'MongoDB'];
@@ -110,3 +114,16 @@ let median = (ages[0] + ages[1] + ages[2] + ages[3] + ages[4] + ages[5] + ages[6
 console.log(Math.floor(median));
 // range
 console.log(Math.max(...ages) - Math.min(...ages));
+
+countries.slice(0, 11);
+console.log(countries);
+console.log(countries[5]);
+
+countries.unshift('U.S.A');
+console.log(countries);
+
+ let num = countries.slice(0, 6);
+console.log(num);
+
+let nuy = countries.slice(6, 12);
+console.log(nuy);
