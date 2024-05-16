@@ -125,5 +125,5 @@ console.log(countries);
  let num = countries.slice(0, 6);
 console.log(num);
 
-let nuy = countries.slice(6, 12);
-console.log(nuy);
+let nub = countries.slice(6, 12);
+console.log(nub);

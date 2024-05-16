@@ -1,0 +1,31 @@
+html, body{
+    margin: 0;
+    padding: 12px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-decoration: underline;
+}
+#changeYear{
+    font-size: 60px;
+}
+#dateTimeBg{
+    padding: 8px 15px;
+    border: none;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 50%;
+}
+ul li{
+    list-style: none;
+    padding: 15px 30px;
+}
